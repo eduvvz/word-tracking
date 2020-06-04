@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8A5F362248889EE003F2C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A5F361248889EE003F2C1B /* AppDelegate.swift */; };
-		C8A5F364248889EE003F2C1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A5F363248889EE003F2C1B /* SceneDelegate.swift */; };
-		C8A5F366248889EE003F2C1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A5F365248889EE003F2C1B /* ContentView.swift */; };
-		C8A5F368248889EF003F2C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A5F367248889EF003F2C1B /* Assets.xcassets */; };
-		C8A5F36B248889EF003F2C1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A5F36A248889EF003F2C1B /* Preview Assets.xcassets */; };
-		C8A5F36E248889F0003F2C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A5F36C248889F0003F2C1B /* LaunchScreen.storyboard */; };
+		C8E6D9252488978400746AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E6D9242488978400746AF7 /* AppDelegate.swift */; };
+		C8E6D9272488978400746AF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E6D9262488978400746AF7 /* SceneDelegate.swift */; };
+		C8E6D9292488978400746AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E6D9282488978400746AF7 /* ViewController.swift */; };
+		C8E6D92C2488978400746AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E6D92A2488978400746AF7 /* Main.storyboard */; };
+		C8E6D92E2488978600746AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E6D92D2488978600746AF7 /* Assets.xcassets */; };
+		C8E6D9312488978600746AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E6D92F2488978600746AF7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8A5F35E248889ED003F2C1B /* Word Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8A5F361248889EE003F2C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8A5F363248889EE003F2C1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C8A5F365248889EE003F2C1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C8A5F367248889EF003F2C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8A5F36A248889EF003F2C1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C8A5F36D248889F0003F2C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C8A5F36F248889F0003F2C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E6D9212488978400746AF7 /* Word Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E6D9242488978400746AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8E6D9262488978400746AF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8E6D9282488978400746AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8E6D92B2488978400746AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8E6D92D2488978600746AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8E6D9302488978600746AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8E6D9322488978600746AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8A5F35B248889ED003F2C1B /* Frameworks */ = {
+		C8E6D91E2488978400746AF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,54 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C8A5F355248889ED003F2C1B = {
+		C8E6D9182488978400746AF7 = {
 			isa = PBXGroup;
 			children = (
-				C8A5F360248889EE003F2C1B /* Word Tracking */,
-				C8A5F35F248889ED003F2C1B /* Products */,
+				C8E6D9232488978400746AF7 /* Word Tracking */,
+				C8E6D9222488978400746AF7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C8A5F35F248889ED003F2C1B /* Products */ = {
+		C8E6D9222488978400746AF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8A5F35E248889ED003F2C1B /* Word Tracking.app */,
+				C8E6D9212488978400746AF7 /* Word Tracking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8A5F360248889EE003F2C1B /* Word Tracking */ = {
+		C8E6D9232488978400746AF7 /* Word Tracking */ = {
 			isa = PBXGroup;
 			children = (
-				C8A5F361248889EE003F2C1B /* AppDelegate.swift */,
-				C8A5F363248889EE003F2C1B /* SceneDelegate.swift */,
-				C8A5F365248889EE003F2C1B /* ContentView.swift */,
-				C8A5F367248889EF003F2C1B /* Assets.xcassets */,
-				C8A5F36C248889F0003F2C1B /* LaunchScreen.storyboard */,
-				C8A5F36F248889F0003F2C1B /* Info.plist */,
-				C8A5F369248889EF003F2C1B /* Preview Content */,
+				C8E6D9242488978400746AF7 /* AppDelegate.swift */,
+				C8E6D9262488978400746AF7 /* SceneDelegate.swift */,
+				C8E6D9282488978400746AF7 /* ViewController.swift */,
+				C8E6D92A2488978400746AF7 /* Main.storyboard */,
+				C8E6D92D2488978600746AF7 /* Assets.xcassets */,
+				C8E6D92F2488978600746AF7 /* LaunchScreen.storyboard */,
+				C8E6D9322488978600746AF7 /* Info.plist */,
 			);
 			path = "Word Tracking";
-			sourceTree = "<group>";
-		};
-		C8A5F369248889EF003F2C1B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C8A5F36A248889EF003F2C1B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8A5F35D248889ED003F2C1B /* Word Tracking */ = {
+		C8E6D9202488978400746AF7 /* Word Tracking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A5F372248889F0003F2C1B /* Build configuration list for PBXNativeTarget "Word Tracking" */;
+			buildConfigurationList = C8E6D9352488978600746AF7 /* Build configuration list for PBXNativeTarget "Word Tracking" */;
 			buildPhases = (
-				C8A5F35A248889ED003F2C1B /* Sources */,
-				C8A5F35B248889ED003F2C1B /* Frameworks */,
-				C8A5F35C248889ED003F2C1B /* Resources */,
+				C8E6D91D2488978400746AF7 /* Sources */,
+				C8E6D91E2488978400746AF7 /* Frameworks */,
+				C8E6D91F2488978400746AF7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,25 +84,25 @@
 			);
 			name = "Word Tracking";
 			productName = "Word Tracking";
-			productReference = C8A5F35E248889ED003F2C1B /* Word Tracking.app */;
+			productReference = C8E6D9212488978400746AF7 /* Word Tracking.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C8A5F356248889ED003F2C1B /* Project object */ = {
+		C8E6D9192488978400746AF7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Eduardo Cerqueira";
 				TargetAttributes = {
-					C8A5F35D248889ED003F2C1B = {
+					C8E6D9202488978400746AF7 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = C8A5F359248889ED003F2C1B /* Build configuration list for PBXProject "Word Tracking" */;
+			buildConfigurationList = C8E6D91C2488978400746AF7 /* Build configuration list for PBXProject "Word Tracking" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = C8A5F355248889ED003F2C1B;
-			productRefGroup = C8A5F35F248889ED003F2C1B /* Products */;
+			mainGroup = C8E6D9182488978400746AF7;
+			productRefGroup = C8E6D9222488978400746AF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8A5F35D248889ED003F2C1B /* Word Tracking */,
+				C8E6D9202488978400746AF7 /* Word Tracking */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C8A5F35C248889ED003F2C1B /* Resources */ = {
+		C8E6D91F2488978400746AF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A5F36E248889F0003F2C1B /* LaunchScreen.storyboard in Resources */,
-				C8A5F36B248889EF003F2C1B /* Preview Assets.xcassets in Resources */,
-				C8A5F368248889EF003F2C1B /* Assets.xcassets in Resources */,
+				C8E6D9312488978600746AF7 /* LaunchScreen.storyboard in Resources */,
+				C8E6D92E2488978600746AF7 /* Assets.xcassets in Resources */,
+				C8E6D92C2488978400746AF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C8A5F35A248889ED003F2C1B /* Sources */ = {
+		C8E6D91D2488978400746AF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A5F362248889EE003F2C1B /* AppDelegate.swift in Sources */,
-				C8A5F364248889EE003F2C1B /* SceneDelegate.swift in Sources */,
-				C8A5F366248889EE003F2C1B /* ContentView.swift in Sources */,
+				C8E6D9292488978400746AF7 /* ViewController.swift in Sources */,
+				C8E6D9252488978400746AF7 /* AppDelegate.swift in Sources */,
+				C8E6D9272488978400746AF7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C8A5F36C248889F0003F2C1B /* LaunchScreen.storyboard */ = {
+		C8E6D92A2488978400746AF7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8A5F36D248889F0003F2C1B /* Base */,
+				C8E6D92B2488978400746AF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8E6D92F2488978600746AF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8E6D9302488978600746AF7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C8A5F370248889F0003F2C1B /* Debug */ = {
+		C8E6D9332488978600746AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		C8A5F371248889F0003F2C1B /* Release */ = {
+		C8E6D9342488978600746AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,14 +280,12 @@
 			};
 			name = Release;
 		};
-		C8A5F373248889F0003F2C1B /* Debug */ = {
+		C8E6D9362488978600746AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Word Tracking/Preview Content\"";
 				DEVELOPMENT_TEAM = 46VN54TZ87;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Word Tracking/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,14 +299,12 @@
 			};
 			name = Debug;
 		};
-		C8A5F374248889F0003F2C1B /* Release */ = {
+		C8E6D9372488978600746AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Word Tracking/Preview Content\"";
 				DEVELOPMENT_TEAM = 46VN54TZ87;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Word Tracking/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8A5F359248889ED003F2C1B /* Build configuration list for PBXProject "Word Tracking" */ = {
+		C8E6D91C2488978400746AF7 /* Build configuration list for PBXProject "Word Tracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8A5F370248889F0003F2C1B /* Debug */,
-				C8A5F371248889F0003F2C1B /* Release */,
+				C8E6D9332488978600746AF7 /* Debug */,
+				C8E6D9342488978600746AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8A5F372248889F0003F2C1B /* Build configuration list for PBXNativeTarget "Word Tracking" */ = {
+		C8E6D9352488978600746AF7 /* Build configuration list for PBXNativeTarget "Word Tracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8A5F373248889F0003F2C1B /* Debug */,
-				C8A5F374248889F0003F2C1B /* Release */,
+				C8E6D9362488978600746AF7 /* Debug */,
+				C8E6D9372488978600746AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C8A5F356248889ED003F2C1B /* Project object */;
+	rootObject = C8E6D9192488978400746AF7 /* Project object */;
 }
