@@ -28,20 +28,35 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="meY-Qg-X5q"/>
                                 </constraints>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ADD"/>
                                 <connections>
                                     <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yd6-nB-q8X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivh-an-Oei">
+                                <rect key="frame" x="314" y="762" width="80" height="80"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="81O-mh-jqs"/>
+                                    <constraint firstAttribute="height" constant="80" id="iJp-UR-6No"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="RESET"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8V8-wX-a8Z"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3l1-Qu-zOG" secondAttribute="bottom" constant="20" id="1fF-AJ-sG7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ivh-an-Oei" secondAttribute="bottom" constant="20" id="6Gb-xf-VV5"/>
                             <constraint firstItem="Lis-dL-XnQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Aq-9e-4tx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lis-dL-XnQ" secondAttribute="trailing" id="9GG-VY-Bls"/>
                             <constraint firstItem="Lis-dL-XnQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UQd-fw-ghK"/>
                             <constraint firstItem="3l1-Qu-zOG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="XMv-1g-Mzq"/>
                             <constraint firstItem="3l1-Qu-zOG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fC0-TI-dMI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ivh-an-Oei" secondAttribute="trailing" constant="20" id="fX2-Vn-VmI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lis-dL-XnQ" secondAttribute="bottom" id="pqh-Vg-FVo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

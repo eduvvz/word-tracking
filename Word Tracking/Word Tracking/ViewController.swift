@@ -27,5 +27,17 @@ class ViewController: UIViewController {
         node.position = SCNVector3(0,0,0)
         self.sceneView.scene.rootNode.addChildNode(node)
     }
+
+    @IBAction func reset(_ sender: Any) {
+        self.restartSession()
+    }
+    
+    func restartSession() {
+        self.sceneView.session.pause()
+        self.sceneView.scene.rootNode.enumerateChildNodes { (node, _) in
+            node.removeFromParentNode()
+        }
+        self.sceneView.session.run(configuration, options: [.resetTracking, .removeExistingAnchors])
+    }
 }
 
