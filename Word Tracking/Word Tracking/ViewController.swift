@@ -10,7 +10,7 @@ import UIKit
 import ARKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var sceneView: ARSCNView!
     let configuration = ARWorldTrackingConfiguration()
     override func viewDidLoad() {
@@ -22,17 +22,22 @@ class ViewController: UIViewController {
     }
     
     @IBAction func add(_ sender: Any) {
+        let doorNode = SCNNode(geometry: SCNPlane(width: 0.03, height: 0.06))
+        doorNode.geometry?.firstMaterial?.diffuse.contents = UIColor.brown
+        let boxNode = SCNNode(geometry: SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0))
+        boxNode.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
         let node = SCNNode()
-        node.geometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0)
-        node.geometry?.firstMaterial?.specular.contents = UIColor.white
-        node.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
-        let x = randomNumbers(firstNum: -0.3, secondNum: 0.3)
-        let y = randomNumbers(firstNum: -0.3, secondNum: 0.3)
-        let z = randomNumbers(firstNum: -0.3, secondNum: 0.3)
-        node.position = SCNVector3(x,y,z)
+        node.geometry = SCNPyramid(width: 0.1, height: 0.1, length: 0.1)
+        node.geometry?.firstMaterial?.specular.contents = UIColor.orange
+        node.geometry?.firstMaterial?.diffuse.contents = UIColor.red
+        node.position = SCNVector3(0.2,0.3,-0.2)
+        boxNode.position = SCNVector3(0, -0.05, 0)
+        doorNode.position = SCNVector3(0,-0.02,0.053)
         self.sceneView.scene.rootNode.addChildNode(node)
+        node.addChildNode(boxNode)
+        boxNode.addChildNode(doorNode)
     }
-
+    
     @IBAction func reset(_ sender: Any) {
         self.restartSession()
     }
@@ -43,10 +48,6 @@ class ViewController: UIViewController {
             node.removeFromParentNode()
         }
         self.sceneView.session.run(configuration, options: [.resetTracking, .removeExistingAnchors])
-    }
-    
-    func randomNumbers(firstNum: CGFloat, secondNum: CGFloat) -> CGFloat {
-        return CGFloat(arc4random()) / CGFloat(UINT32_MAX) * abs(firstNum - secondNum) + min(firstNum, secondNum)
     }
 }
 
